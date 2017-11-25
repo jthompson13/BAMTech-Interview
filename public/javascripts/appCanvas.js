@@ -133,8 +133,8 @@ function moveForward() {
 
 // Expand and highlight image
 function onSelect(img) {
-    img.scale.set(1.2);
-    var outlineFilter = new PIXI.filters.GlowFilter(15, 2, 1, 0xff9999, 0.5);
+    img.scale.set(1.25);
+    var outlineFilter = new PIXI.filters.GlowFilter(15, 3, 1, 0xfffff9, 0.5);
     img.filters = [outlineFilter];
 }
 
